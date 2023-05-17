@@ -130,3 +130,6 @@
 // Sort the array from smallest to largest using a comparison function
 // Add array[0] and array[1]
 // Instead of isolating the two variables in a sea of variables, sort the array into a pattern you can use (smallest numbers first).
+
+// Multiples of 3 or 5
+// Instead of creating an array, start with a the sum variable as a number so you can use an addition assignment (+=) directly in the for loop instead of pushing and reducing.
