@@ -104,7 +104,7 @@
 // Set() turns an array into a set of unique values. You can then see what the difference is.
 // Eg. new Set(str.toUpperCase()).size == str.length
 // Exes and Ohs
-// If looking for how many matches of a certain value, use .match(value)
+// If looking for how many matches of a certain character, use .match(value in regex)
 // Eg. str = “Hello, Lola!”, str.match(/l/gi) returns array of 4 ls (g goes through entire object, i makes it case insensitive)
 
 // Jaden Casing Strings
@@ -133,3 +133,13 @@
 
 // Multiples of 3 or 5
 // Instead of creating an array, start with a the sum variable as a number so you can use an addition assignment (+=) directly in the for loop instead of pushing and reducing.
+
+// Create Phone Number
+// Good case for .replace()!
+// Can create a variable with a format for the string ('(xxx) xxx-xxxx'), and then user the forEach to replace each 'x' with a number
+
+// Find the odd int
+// Bitwise XOR (the exclusive OR) operator "^": binary operation that compares corresponding bits of two operands and returns a new binary number indicating differences in the two operands.
+// 1 & 0 becomes 1, 0 & 0 becomes 0, 1 + 1 becomes 0, so basically a 1 represents a difference.
+// Pop inside of a reduce and it will return the item in the array that occurs an odd amount of times.
+// A number XORed by itself will always return 0, which cancels itself out if it occurs an even amount of times. If a number occurs an odd number of times, there would be one occurance left uncancelled that when XORed by 0 would return itself.
