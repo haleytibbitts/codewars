@@ -67,6 +67,7 @@
 // Can tag .test(string) onto regex and get boolean value back
 // Another way: a === a.toUpperCase() && b === b.UpperCase() (or .toLowerCase() )
 // Check if not a letter using methods: a.toUpperCase() === a.toLowerCase(). Numbers and objects won’t transform as they don’t have case capabilities.
+
 // Quarter of the year
 // When dealing with conditionals, you don’t have to explicitly state a range that excludes a range that’s already been passed over (eg. a <= 3 ? yes : a  >= 4 & a <= 6 ? no : maybe).
 // If the program gets to the second if statement, you can assume that the first conditional isn’t true, so you can write cleaner conditional (eg. a <= 3 ? yes : a <= 6 ? no : maybe)
@@ -104,7 +105,7 @@
 // Set() turns an array into a set of unique values. You can then see what the difference is.
 // Eg. new Set(str.toUpperCase()).size == str.length
 // Exes and Ohs
-// If looking for how many matches of a certain character, use .match(value in regex)
+// If looking for how many matches of a certain character, use .match()
 // Eg. str = “Hello, Lola!”, str.match(/l/gi) returns array of 4 ls (g goes through entire object, i makes it case insensitive)
 
 // Jaden Casing Strings
@@ -143,3 +144,7 @@
 // 1 & 0 becomes 1, 0 & 0 becomes 0, 1 + 1 becomes 0, so basically a 1 represents a difference.
 // Pop inside of a reduce and it will return the item in the array that occurs an odd amount of times.
 // A number XORed by itself will always return 0, which cancels itself out if it occurs an even amount of times. If a number occurs an odd number of times, there would be one occurance left uncancelled that when XORed by 0 would return itself.
+
+// Sum of Digits / Digital Root
+// Don't forget about the while loop!!! Good for looping until a condition is met.
+// Can also create a self-calling function that starts with a conditional check with a return inside, then runs logic that ends in it calling itself again (while loop seems cleaner? interesting though).
