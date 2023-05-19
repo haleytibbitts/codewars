@@ -148,3 +148,8 @@
 // Sum of Digits / Digital Root
 // Don't forget about the while loop!!! Good for looping until a condition is met.
 // Can also create a self-calling function that starts with a conditional check with a return inside, then runs logic that ends in it calling itself again (while loop seems cleaner? interesting though).
+
+// Array.diff
+// .includes(value) sees if your value exists inside the array and returns a boolean
+// .find(v => v === value) sees if your value exists inside the array and returns undefined or the actual value
+// My .find() solution was working on everything but arrays that have 0 values because 0 is falsy and was skipped over by the ! operator. Better use case for .includes()!
