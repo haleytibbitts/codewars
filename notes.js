@@ -157,3 +157,6 @@
 // Bit Counting
 // Use .toString(2) to convert integer into binary. 2 = the radix (determines the number of unique digits used to express value)
 // Can eliminate instances of data you don't need in a string by using that value as an argument in .split('val'). Can then join and return the length of the string instead of iterating through an array.
+
+// Abbreviate a Two Word Name
+// .join('.') will join all values with a period in between. Much more succinct than using a format template.
