@@ -159,4 +159,12 @@
 // Can eliminate instances of data you don't need in a string by using that value as an argument in .split('val'). Can then join and return the length of the string instead of iterating through an array.
 
 // Abbreviate a Two Word Name
-// .join('.') will join all values with a period in between. Much more succinct than using a format template.
+// .join('.') will join all values with a period in between. Much more succinct than using a format template!
+
+// String ends with?
+// There's an actual .endsWith() string method that does all the work for you LOL
+
+// Replace with Alphabet Position
+// .charCodeAt() returns the unicode value of a character, which eliminates the need for a legend (just have to -64 to bypass some symbols)
+// .indexOf() to find the index of a desired value in a string or array
+// regex continues to mystify me
