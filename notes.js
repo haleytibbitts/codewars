@@ -168,3 +168,7 @@
 // .charCodeAt() returns the unicode value of a character, which eliminates the need for a legend (just have to -64 to bypass some symbols)
 // .indexOf() to find the index of a desired value in a string or array
 // regex continues to mystify me
+
+// Credit Card Mask
+// Instead of checking for a string's length, you can use .slice(0, -4) to control
+// . is the universal regex character selector
