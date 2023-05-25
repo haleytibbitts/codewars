@@ -170,5 +170,5 @@
 // regex continues to mystify me
 
 // Credit Card Mask
-// Instead of checking for a string's length, you can use .slice(0, -4) to control
+// Instead of checking for a string's length explicitly, you can use .slice(0, -4) to control the first half of the mask (will return nothing if length is less than 4)
 // . is the universal regex character selector
