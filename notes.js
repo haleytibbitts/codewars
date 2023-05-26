@@ -172,3 +172,9 @@
 // Credit Card Mask
 // Instead of checking for a string's length explicitly, you can use .slice(0, -4) to control the first half of the mask (will return nothing if length is less than 4)
 // . is the universal regex character selector
+
+// Duplicate Encoder
+// .map() can take element and index, but it can take a third argument of array which references the array that map was called on
+// We can use the array + element params, .indexOf(), and .lastIndexOf() to bypass a for loop in this case
+// Can check to see if the first occurrence of a element's index is the same as the last occurrence's index. If it is, there is only one occurrence.
+// array.indexOf(char) === array.lastIndexOf(char) ? 'one occurrence': 'more than one'
