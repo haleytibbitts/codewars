@@ -186,7 +186,8 @@
 
 // Growth of a Population
 // Brain hurts. Send help.
-// Good case for a for loop! let years = 0
+// Good case for a for loop! var years = 0
+// Must use var in this case. Var has function scope, let has block scope so you wouldn't be able to use the value outside of the for loop.
 // Missed that the number of inhabitants must always be an integer rounded down, hence errors.
 // Place Math.floor on the second half of the addition assignment
 // Check the output from your logic as often as possible to catch bugs faster.
