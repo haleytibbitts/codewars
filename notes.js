@@ -178,3 +178,16 @@
 // We can use the array + element params, .indexOf(), and .lastIndexOf() to bypass a for loop in this case
 // Can check to see if the first occurrence of a element's index is the same as the last occurrence's index. If it is, there is only one occurrence.
 // array.indexOf(char) === array.lastIndexOf(char) ? 'one occurrence': 'more than one'
+
+// Two to One
+// Set is it's own data type and needs to be converted back to an array to be manipulated ([...Set])
+// Can use a basic operator (+) instead of concat
+// Since the result of the first half is an array, you can sort outside of it instead of splitting the string inside
+
+// Growth of a Population
+// Brain hurts. Send help.
+// Good case for a for loop! let years = 0
+// Missed that the number of inhabitants must always be an integer rounded down, hence errors.
+// Place Math.floor on the second half of the addition assignment
+// Check the output from your logic as often as possible to catch bugs faster.
+// Bless pseudocoding for getting me through this.
