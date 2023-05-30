@@ -192,3 +192,9 @@
 // Place Math.floor on the second half of the addition assignment
 // Check the output from your logic as often as possible to catch bugs faster.
 // Bless pseudocoding for getting me through this.
+
+// Take a Ten Minute Walk
+// Focus on the output when trying to come up with a solution to a confusing problem.
+// Eg. the output for this function is a boolean. What conditions need to be met in order to return true or false... and work your way backwards.
+// Can skip filter and map by moving straight to reduce (can add ifs to change the content and can leave out unwanted elements)
+// Could also use a for loop with a switch inside
