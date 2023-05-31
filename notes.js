@@ -198,3 +198,8 @@
 // Eg. the output for this function is a boolean. What conditions need to be met in order to return true or false... and work your way backwards.
 // Can skip filter and map by moving straight to reduce (can add ifs to change the content and can leave out unwanted elements)
 // Could also use a for loop with a switch inside
+
+// Unique In Order
+// Use the typeof keyword to return the type of a variable in string form
+// Can use spread on a string to split it by characters into an array ([...string])
+// Use index parameter inside of a filter to compare adjacent elements in an array (array[i + 1])
