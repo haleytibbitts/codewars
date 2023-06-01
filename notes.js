@@ -203,3 +203,14 @@
 // Use the typeof keyword to return the type of a variable in string form
 // Can use spread on a string to split it by characters into an array ([...string])
 // Use index parameter inside of a filter to compare adjacent elements in an array (array[i + 1])
+
+// Convert a String to Camel Case
+// Inside of regex character brackets ([]) a caret (^) followed by characters negates those characters
+// eg. .split(/[^a-z]/i) would split at anything that isn't a letter
+// Can chain character brackets to look for multiple characters in order
+// \w (no need for character brackets) is a shorthand for any letter, digit, or underscore
+// Inside of .replace() can pass a regex variable and a callback function, which takes the regex match as an argument and returns the desired output.
+
+// Is this a Triangle?
+// Remember that the default return of an expression is a boolean!
+// TIL that triangle is when largest side < all sides added together divided by 2. I am indeed not smarter than a fifth grader.
