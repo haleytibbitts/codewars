@@ -214,3 +214,7 @@
 // Is this a Triangle?
 // Remember that the default return of an expression is a boolean!
 // TIL that triangle is when largest side < all sides added together divided by 2. I am indeed not smarter than a fifth grader.
+
+// Detect Pangram
+// .every() is an array method that accepts a callback function and runs logic for every element in the array and returns a boolean.
+// Returns false at the first instance of a false value, else returns true at the end of the array
