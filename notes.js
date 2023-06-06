@@ -218,3 +218,12 @@
 // Detect Pangram
 // .every() is an array method that accepts a callback function and runs logic for every element in the array and returns a boolean.
 // Returns false at the first instance of a false value, else returns true at the end of the array
+
+// Regex Validate PIN Code
+// ^ = represents the start of a string
+// $ = represents the end of a string
+// () opens up a boolean expression
+// \d is a shortcut for numbers
+// {} with a number inside represent string length
+// | is an OR operator
+// Eg. /^(\d{4}|\d{6})$/.test(pin) is looking at pin and returning true or false based on if the string contains numbers and is equal in length to 4 or 6
