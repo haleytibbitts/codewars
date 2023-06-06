@@ -227,3 +227,7 @@
 // {} with a number inside represent string length
 // | is an OR operator
 // Eg. /^(\d{4}|\d{6})$/.test(pin) is looking at pin and returning true or false based on if the string contains numbers and is equal in length to 4 or 6
+
+// Moving Zeros To The End
+// can use .sort() with a ternary that returns the index placement for the desired element
+// Eg. arr.sort((a, b) => b === 0 ? -1 : 0)
