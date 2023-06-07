@@ -231,3 +231,9 @@
 // Moving Zeros To The End
 // can use .sort() with a ternary that returns the index placement for the desired element
 // Eg. arr.sort((a, b) => b === 0 ? -1 : 0)
+
+// Simple Pig Latin
+// If looking for a word in regex, can use the \w+ selector. 
+// \w looks for a word character
+// + means that we want to match one or more occurrences in a row
+// Can .replace() and pass in a callback fn to implement word structure
