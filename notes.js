@@ -237,3 +237,10 @@
 // \w looks for a word character
 // + means that we want to match one or more occurrences in a row
 // Can .replace() and pass in a callback fn to implement word structure
+
+// Your Order, Please
+// .match(/\d/) to find the first occurance of a number in a string
+// .sort() looks for negative, positive, or zero values in the return. 
+// if first value - second value is positive, the first value goes after the second value.
+// if first value - second value is negative, the first value goes before the second value.
+// if the values are the same, their positional relationship doesn't change.
